@@ -1,0 +1,35 @@
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.about-me-container > h2 {
+    font-size: 1.75rem;
+    margin-left: 1.25rem;
+    color: #FFF;
+}
+
+.about-me-description {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 2.5rem;
+    width: 90vw;
+    color: #FFF;
+    font-size: 1.15rem;
+}
+
+.about-me-headline {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    color: lightblue;
+    font-weight: bold;
+}
+
+.about-me-description > h4 {
+    color: lightskyblue;
+}
+
+.about-me-items {
+    color: #FFF;
+}
