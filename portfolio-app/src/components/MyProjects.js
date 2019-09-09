@@ -1,5 +1,8 @@
 import React from "react"
-import { ProjectItem } from "./common/ProjectItem";
+import { ProjectItem } from "./common/ProjectItem"
+const treasureQuest = require('../images/treasure-quest.png')
+const marvelApp = require('../images/marvel-app.png')
+const notesApp = require('../images/notes-app.png')
 
 const MyProjects = () => {
     return (
@@ -17,6 +20,7 @@ const MyProjects = () => {
                     collect the secret treasure."
                 githubLink="https://github.com/charlieb33/treasure-quest"
                 deployLink="https://charlieb33.github.io/treasure-quest/"
+                pic={treasureQuest}
             />
             <ProjectItem
                 title="Marvel App"
@@ -31,14 +35,19 @@ const MyProjects = () => {
                     events from the database."
                 githubLink="https://github.com/charlieb33/marvel-app"
                 deployLink="http://p2-marvel.surge.sh/"
+                pic={marvelApp}
             />
             <ProjectItem
                 title="Notes App"
                 description="A fullstack app that allows users to sign up or log into an account for them
                     to create or remove folders, and create, edit, or remove notes stored inside of them.
-                    "
-                githubLink=""
-                deployLink=""
+                    Use passport, auth, and express to create a new user account, or log into an existing
+                    one. Use of express queries in order to read, create, edit, or remove the folders and 
+                    notes for a specific user. React was used to display the logged in user's folders and
+                    notes in the frontend, and allow them do interact with them."
+                githubLink="https://github.com/ga-p3/group_project_3"
+                deployLink="http://notes-app-p3.surge.sh/"
+                pic={notesApp}
             />
         </div>
     )
