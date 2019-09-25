@@ -1,5 +1,5 @@
-import React from "react"
-import "../../styles/ProjectItem.css"
+import React from "react";
+import "../../styles/ProjectItem.css";
 
 const ProjectItem = (props) => {
     return (
@@ -14,7 +14,7 @@ const ProjectItem = (props) => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export { ProjectItem }
+export { ProjectItem };

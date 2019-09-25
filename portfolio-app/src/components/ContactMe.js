@@ -1,5 +1,5 @@
-import React from "react"
-import "../styles/ContactMe.css"
+import React from "react";
+import "../styles/ContactMe.css";
 
 const ContactMe = () => {
     return (
@@ -13,7 +13,7 @@ const ContactMe = () => {
                 <input type="submit" value="Send" className="submit-button" />
             </form>
         </div>
-    )
-}
+    );
+};
 
-export default ContactMe
+export default ContactMe;

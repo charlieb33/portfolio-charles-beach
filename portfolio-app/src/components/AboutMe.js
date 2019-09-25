@@ -1,5 +1,5 @@
-import React from "react"
-import "../styles/AboutMe.css"
+import React from "react";
+import "../styles/AboutMe.css";
 
 const AboutMe = () => {
     return (
@@ -12,7 +12,7 @@ const AboutMe = () => {
                 <p>
                     For as long as I can remember, I have always been curious as to what makes things tick.
                     I believe my thirst for knowledge, challenges, and self-improvement has to be one of my best qualities.
-                    I am capable of teaching myself new things or building on my current capabilites quickly.
+                    I am capable of teaching myself new things or building on my current capabilites quickly;.
                     When put on a team, I do what I can to cover my ends, help out when needed and maintain communication with my teammates.
                 </p>
                 <p>
@@ -26,7 +26,7 @@ const AboutMe = () => {
                 <h4>Awards: <span className="about-me-items">Cum Laude Honors (Adelphi University)</span></h4>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default AboutMe
+export default AboutMe;

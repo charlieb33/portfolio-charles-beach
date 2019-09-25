@@ -1,11 +1,11 @@
-import React from "react"
-import { ProjectItem } from "./common/ProjectItem"
-import "../styles/MyProjects.css"
+import React from "react";
+import { ProjectItem } from "./common/ProjectItem";
+import "../styles/MyProjects.css";
 
 const treasureQuest = require("../images/treasure-quest.png");
 const marvelApp = require("../images/marvel-app.png");
 const notesApp = require("../images/notes-app.png");
-const assignAssist = require("../images/assign-assist.png")
+const assignAssist = require("../images/assign-assist.png");
 
 const MyProjects = () => {
     return (
@@ -71,7 +71,7 @@ const MyProjects = () => {
                 />
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default MyProjects
+export default MyProjects;

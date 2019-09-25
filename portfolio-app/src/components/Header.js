@@ -1,7 +1,5 @@
-import React from "react"
-import "../styles/Header.css"
-
-const profile = require('../images/profile-pic.jpg')
+import React from "react";
+import "../styles/Header.css";
 
 const Header = () => {
     return (
@@ -9,9 +7,9 @@ const Header = () => {
             <header>
                 <h1>CHARLES BEACH</h1>
             </header>
-            <img src={profile} alt="profile-pic" />
+            <h2>Software Developer</h2>
         </div>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;
