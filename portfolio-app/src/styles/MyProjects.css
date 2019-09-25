@@ -13,3 +13,21 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+    .projects-container > h2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .projects-container > h2 {
+        font-size: 1.55rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .projects-container > h2 {
+        font-size: 1.5rem;
+    }
+}

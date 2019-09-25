@@ -14,12 +14,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 85vw;
+    width: auto;
     margin-bottom: 0.75rem;
 }
 
 .contact-me-form > input {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin: 0.5rem;
     padding: 0.5rem;
 }
@@ -31,5 +31,58 @@
 }
 
 .submit-button {
-    font-size: 1.3rem;
+    background-color: #FFF; 
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-me-container > h2 {
+        font-size: 2rem;
+    }
+
+    .contact-me-form > input {
+        font-size: 1.4rem;
+    }
+    
+    .contact-me-form > textarea {
+        font-size: 1.7rem;
+    }
+
+    .submit-button {
+        font-size: 1.3rem;
+        background-color: #FFF; 
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .contact-me-container > h2 {
+        font-size: 1.55rem;
+    }
+
+    .contact-me-form > input {
+        font-size: 1rem;
+    }
+    
+    .contact-me-form > textarea {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .contact-me-container > h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-me-form > input {
+        font-size: 0.9rem;
+    }
+    
+    .contact-me-form > textarea {
+        font-size: 1.05rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .submit-button {
+        font-size: 0.5rem;
+    }
 }

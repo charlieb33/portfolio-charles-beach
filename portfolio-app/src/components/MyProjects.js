@@ -57,13 +57,14 @@ const MyProjects = () => {
                     title="Assignment Assist"
                     description="A fullstack app that uses React in the front end, and Ruby on Rails in the
                     back end. The app allows the user to log into or register for an account, and once signed in,
-                    they will be interact with their courses and assignments for those courses. Ruby on Rails is
-                    used to new user accounts or log into exisiting existing ones. It is also used to create, read, update,
-                    and delete courses and assignments for logged in users. When not logged in, React would display a
-                    description of the app. When logged in, the app will display a list of the user's courses and a link
-                    to a form to add a new course. When they click on a course, it will display that course's data, including
-                    a list of assignments, and the options to edit or delete that course and add an assignment. Clicking
-                    the assignment, will display its information, and the options to edit or remove it."
+                    they will be able to interact with their courses and assignments for those courses. Ruby on Rails
+                    is used to create new user accounts or log into exisiting ones. It is also used to create,read,
+                    update, and delete courses and assignments for logged in users. When not logged in, React would
+                    display a description of the app. When logged in, the app will display a list of the user's courses
+                    and a link to a form to add a new course. When they click on a course, it will display that course's
+                    data, including a list of assignments, and the options to edit or delete that course and add an
+                    assignment. Clicking the assignment, will display its information, and the options to edit or
+                    remove it."
                     githubLink="https://github.com/charlieb33/assignment-assist"
                     deployLink="http://assignment-assist.surge.sh/"
                     pic={assignAssist}

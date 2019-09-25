@@ -7,6 +7,7 @@
 .about-me-container > h2 {
     font-size: 1.75rem;
     margin-left: 1.25rem;
+    margin-bottom: 0.5rem;
     color: #FFF;
 }
 
@@ -14,9 +15,9 @@
     display: flex;
     flex-direction: column;
     margin: 0 0 0 2.5rem;
-    width: 90vw;
     color: #FFF;
     font-size: 1.15rem;
+    width: 70rem;
 }
 
 .about-me-headline {
@@ -27,9 +28,52 @@
 }
 
 .about-me-description > h4 {
+    margin-top: 0.5rem;
     color: lightskyblue;
 }
 
 .about-me-items {
     color: #FFF;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-me-container > h2 {
+        font-size: 2rem;
+    }
+    
+    .about-me-description {
+        width: 42rem;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .about-me-container > h2 {
+        font-size: 1.55rem;
+    }
+
+    .about-me-description {
+        width: 20rem;
+        font-size: 1rem;
+    }
+
+    .about-me-headline {
+        font-size: 1.1rem;
+        margin-bottom: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .about-me-container > h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-me-description {
+        width: 18rem;
+        font-size: 0.9rem;
+    }
+
+    .about-me-headline {
+        font-size: 1rem;
+        margin-bottom: 0.8rem;
+    }
 }

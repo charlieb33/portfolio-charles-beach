@@ -24,3 +24,26 @@
     border: 0.5rem solid darkblue;
     transform: rotate(90deg)
 }
+
+@media only screen and (max-width: 768px) {
+    .header-container {
+        height: 25rem;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .header-container {
+        height: 18rem;
+    }
+
+    .header-container > header > h1 {
+        font-size: 1.7rem;
+    }
+
+    .header-container > img {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {}
