@@ -12,7 +12,7 @@ const AboutMe = () => {
                 <p>
                     For as long as I can remember, I have always been curious as to what makes things tick.
                     I believe my thirst for knowledge, challenges, and self-improvement has to be one of my best qualities.
-                    I am capable of teaching myself new things or building on my current capabilites relatively quick.
+                    I am capable of teaching myself new things or building on my current capabilites quickly.
                     When put on a team, I do what I can to cover my ends, help out when needed and maintain communication with my teammates.
                 </p>
                 <p>
